@@ -38,7 +38,7 @@
         return;
       }
 
-      fetch(`https://script.google.com/macros/s/AKfycbwqBGv5NsQwkyI8tg4KNSHQ_m319rZZPhRwifMwj1uCd04FoV7ej62WJMzlCcjur7KtaA/exec?code=${encodeURIComponent(code)}`)
+      fetch(`https://script.google.com/macros/s/AKfycbw5-bZONIPiJ04umO9VLbW1w_M4J2XpVsib_21lx36V8BAAxsW3LxxgWVoREhDXywAsdg/exec?code=${encodeURIComponent(code)}`)
         .then(res => res.json())
         .then(data => {
           if (data.success) {
