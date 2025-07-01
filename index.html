@@ -42,7 +42,7 @@
         .then(res => res.json())
         .then(data => {
           if (data.success) {
-            resultDiv.innerHTML = `${data.message}<br>產品名稱：<b>${data.product}</b>`;
+            resultDiv.innerHTML = `${data.message}<br>DC名稱：<b>${data.product}</b>`;
           } else {
             resultDiv.innerText = data.message;
           }
